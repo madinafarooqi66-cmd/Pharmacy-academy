@@ -1,0 +1,121 @@
+<!-- Header & Navigation -->
+<header>
+    <div class="container navbar">
+        <div class="logo">PharmaAcademy</div>
+        <nav>
+            <a href="#home">Home</a>
+            <link rel="stylesheet" href="style.css">
+            <a href="#education">Education</a>
+            <a href="#exam">Exam Portal</a>
+            <a href="#medical-test">Medical Tests</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Home / Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Welcome to Pharmacy Online Academy</h1>
+        <p>Your premier destination for professional pharmacy education, drug research, and healthcare insights.</p>
+        <a href="#education" class="btn">Start Learning</a>
+    </div>
+</section>
+
+<!-- Our Team Section (Teamwork Page) -->
+<section id="team" class="container section">
+    <h2 class="section-title">Our Expert Team</h2>
+    <div class="team-grid">
+        <div class="team-card">
+            <div class="avatar">MF</div>
+            <h3>Madina Farooqi</h3>
+            <p class="role">Pharmacy Professor & Lecturer</p>
+            <p class="email"><a href="mailto:madinafarooqi@gmail.com">madinafarooqi@gmail.com</a></p>
+        </div>
+        <div class="team-card">
+            <div class="avatar">HN</div>
+            <h3>Hamdia Noori</h3>
+            <p class="role">Medical Laboratory Specialist</p>
+            <p class="email"><a href="mailto:Hamdianoori251@gmail.com">Hamdianoori251@gmail.com</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="bg-light">
+    <div class="container section">
+        <h2 class="section-title">Educational Programs</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Pharmacology</h3>
+                <p>Study the interactions between chemical substances and living organisms to understand drug actions.</p>
+            </div>
+            <div class="card">
+                <h3>Pharmaceutics</h3>
+                <p>Learn the process of turning a new chemical entity into a safe and effective medication form.</p>
+            </div>
+            <div class="card">
+                <h3>Medicinal Chemistry</h3>
+                <p>Explore the design, synthesis, and development of pharmaceutical agents and therapeutic compounds.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Exam Section -->
+<section id="exam" class="container section">
+    <h2 class="section-title">Student Exam Portal</h2>
+    <p style="text-align: center; margin-bottom: 20px;">Evaluate your pharmaceutical knowledge after completing your modules:</p>
+    <div class="quiz-container">
+        <div class="question">
+            <h3>Question 1: What is the primary function of antibiotic medications?</h3>
+            <label class="option"><input type="radio" name="q1"> To destroy or inhibit bacterial infections</label>
+            <label class="option"><input type="radio" name="q1"> To cure generic viral flus and common colds</label>
+            <label class="option"><input type="radio" name="q1"> To exclusively provide temporary pain relief</label>
+        </div>
+        <button class="btn" onclick="alert('Your exam answer has been submitted successfully!')">Submit Exam</button>
+    </div>
+</section>
+
+<!-- Medical Test Section (For Public/Non-Students) -->
+<section id="medical-test" class="bg-light">
+    <div class="container section">
+        <h2 class="section-title">Public Medical Health Tests</h2>
+        <p style="text-align: center; margin-bottom: 30px;">Open to the general public. Monitor your vital health indicators instantly:</p>
+        <div class="grid">
+            <div class="card test-card">
+                <div class="icon">🩸</div>
+                <h3>Blood Sugar Test</h3>
+                <p>Track your glucose levels to manage pre-diabetes and maintain everyday energy metrics.</p>
+            </div>
+            <div class="card test-card">
+                <div class="icon">🫀</div>
+                <h3>Blood Pressure (BP)</h3>
+                <p>Routine checking helps detect and prevent hypertension to safeguard cardiovascular health.</p>
+            </div>
+            <div class="card test-card">
+                <div class="icon">🧪</div>
+                <h3>Blood Lipids (Cholesterol)</h3>
+                <p>Measure your LDL, HDL, and total cholesterol balance to assess fatty deposits in blood vessels.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container section">
+    <h2 class="section-title">Contact Our Team</h2>
+    <div class="contact-wrapper">
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent.');">
+            <input type="text" placeholder="Your Full Name" required>
+            <input type="email" placeholder="Your Email Address" required>
+            <textarea rows="5" placeholder="Write your query or message here..." required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Pharmacy Online Academy. All Rights Reserved.</p>
+</footer>
